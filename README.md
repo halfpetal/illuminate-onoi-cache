@@ -1,0 +1,1 @@
+*This package is based, heavily, off of teamreflex's. We only rewrote it to ensure it's still valid with current versions of Laravel as the referenced package is 2 years old and hasn't been touched.*
