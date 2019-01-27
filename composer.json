@@ -1,0 +1,26 @@
+{
+    "name": "halfpetal/illuminate-onoi-cache",
+    "type": "library",
+    "description": "Illuminate cache driver for onoi cache",
+    "homepage": "https://github.com/halfpetal/illuminate-onoi-cache",
+    "keywords": ["laravel", "illuminate", "cache", "driver", "onoi"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Matthew Hatcher",
+            "email": "matthewh@halfpetal.com",
+            "homepage": "https://halfpetal.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "illuminate/cache": ">=5.0",
+        "onoi/cache": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Halfpetal\\Onoi\\Illuminate\\": "src/"
+        }
+    }
+}
