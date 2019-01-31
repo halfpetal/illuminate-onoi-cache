@@ -45,7 +45,7 @@ class Cache implements OnoiCache
      */
     public function save($id, $data, $ttl = 0)
     {
-        $this->cache->save($id, $data, $ttl);
+        $this->cache->put($id, $data, $ttl);
     }
 
     /**
